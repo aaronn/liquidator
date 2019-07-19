@@ -1,4 +1,4 @@
-FROM dydxprotocol/arm32v7/node:8.16.0-jessie
+FROM arm32v7/node:8.16.0-jessie
 
 RUN adduser -S dydx
 RUN mkdir -p /home/dydx/app
