@@ -1,6 +1,6 @@
 FROM arm32v7/node:8.16.0-jessie
 
-RUN adduser -S dydx
+RUN adduser -system dydx
 RUN mkdir -p /home/dydx/app
 RUN chown dydx -R /home/dydx/app
 USER dydx
